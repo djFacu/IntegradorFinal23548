@@ -21,7 +21,7 @@ public class MySqlConexion {
 		}
 	}
 
-	public Connection conectar() {
+	public static Connection conectar() {
 		
 		Connection conexion = null;
 		

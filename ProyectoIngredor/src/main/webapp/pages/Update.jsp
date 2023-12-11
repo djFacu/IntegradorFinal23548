@@ -18,9 +18,9 @@
 	String categoria = request.getParameter("categoria");
 	//out.print(nombre+apellido+mail+cantidad+categoria);
 		
-	MySqlConexion conexion = new MySqlConexion();
+	//MySqlConexion conexion = new MySqlConexion();
 	
-	Connection cn = conexion.conectar();
+	Connection cn = MySqlConexion.conectar();
 
 	try {
 	
