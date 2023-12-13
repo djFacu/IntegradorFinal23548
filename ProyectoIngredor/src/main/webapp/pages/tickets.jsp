@@ -138,6 +138,9 @@
                 <div class="col-12 col-md-4">
                   <button class="btn btn-compra" onclick="location.href='../index.html'" type="button">Confirmar</button>
                 </div>
+                <div class="col-12 col-md-4">
+                  <button class="btn btn-compra" onclick="location.href='mostrarTickets2.jsp'" type="button">Mostrar Tickets</button>
+                </div>
               </div>
             </form>
           </div>
